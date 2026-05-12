@@ -37,7 +37,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - BACKEND_API_URL=http://backend:8001
+      - API_BASE_URL=http://backend:8001/api
     volumes:
       - astro_storage:/app/logs
     depends_on:
