@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  redis:
+    image: redis:7.4-alpine
+    container_name: astro-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+  backend:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: astro-backend
+    restart: unless-stopped
+    command: uvicorn backend.app:app --host 0.0.0.0 --port 8001
+    ports:
+      - "8001:8001"
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+    volumes:
+      - astro_storage:/app/logs
+      - astro_sessions:/app/sessions
+    depends_on:
+      - redis
+
+  frontend:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: astro-frontend
+    restart: unless-stopped
+    command: chainlit run frontend/ui.py --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    environment:
+      - BACKEND_API_URL=http://backend:8001
+    volumes:
+      - astro_storage:/app/logs
+    depends_on:
+      - backend
+
+volumes:
+  redis_data:
+  astro_storage:
+  astro_sessions:

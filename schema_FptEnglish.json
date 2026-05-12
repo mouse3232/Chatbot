@@ -1,0 +1,399 @@
+{
+  "database_info": {
+    "name": "mirror.db"
+  },
+  "tables": [
+    {
+      "table_name": "Bhakoot",
+      "identifier_columns": [
+        "Case"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "BirthOnDayTime",
+      "identifier_columns": [
+        "Day",
+        "Time"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "BirthOnNakshatra",
+      "identifier_columns": [
+        "Nakshatra"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "BirthOnRasiLagna",
+      "identifier_columns": [
+        "LagnaRasi",
+        "Rasi"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Gana",
+      "identifier_columns": [
+        "Male",
+        "Female"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "GrahMaitri",
+      "identifier_columns": [
+        "Male_Sign_Lord",
+        "Female_Sign_lord"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "KaalSarp",
+      "identifier_columns": [
+        "House",
+        "Case"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "LKUpay",
+      "identifier_columns": [
+        "Planet",
+        "House"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Lalkitab",
+      "identifier_columns": [
+        "Planet",
+        "House",
+        "Sex"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "LordOfHouseInHouse",
+      "identifier_columns": [
+        "HouseLord",
+        "InHouse"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Mars_Reading",
+      "identifier_columns": [
+        "House",
+        "Sex",
+        "Strength"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Matching1",
+      "identifier_columns": [
+        "Male_Sign",
+        "Female_Sign"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Matching2",
+      "identifier_columns": [
+        "NadiMale",
+        "NadiFemale",
+        "ManglkMale",
+        "ManglikFemale",
+        "Case"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Matching3",
+      "identifier_columns": [
+        "Case",
+        "Bhakoot",
+        "MarsDosh"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Matching4",
+      "identifier_columns": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Matching5",
+      "identifier_columns": [
+        "Sex",
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Moon_Reading",
+      "identifier_columns": [
+        "House",
+        "Sex",
+        "Strength"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Nadi",
+      "identifier_columns": [
+        "Male_Nadi",
+        "Female_Nadi"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Nakshatra_Reading",
+      "identifier_columns": [
+        "Nakshatra",
+        "Charan",
+        "Sex",
+        "Section"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Navamsa_Reading",
+      "identifier_columns": [
+        "Ascendant",
+        "Navamsa"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Num_Bhagyank",
+      "identifier_columns": [
+        "Date"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Num_Lucky",
+      "identifier_columns": [
+        "Radical",
+        "LuckyNo"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Num_Redical",
+      "identifier_columns": [
+        "Date"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Num_Remedies",
+      "identifier_columns": [
+        "Radical",
+        "Item"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Paya_Vichar",
+      "identifier_columns": [
+        "House",
+        "Sex",
+        "Strength"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "PlanetFromMoon",
+      "identifier_columns": [
+        "Planet",
+        "House"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "PlanetInHouse",
+      "identifier_columns": [
+        "Planet",
+        "House"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "PlanetInRasi",
+      "identifier_columns": [
+        "Planet",
+        "Rasi"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Planet_in_House_Reading",
+      "identifier_columns": [
+        "Ascendant",
+        "House",
+        "Planet",
+        "HouseStrength"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "RasiInHouse",
+      "identifier_columns": [
+        "Rasi",
+        "House"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Ratna_Vichar_House",
+      "identifier_columns": [
+        "Planet",
+        "House",
+        "GoodBad"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Ratna_Vichar_Lagna",
+      "identifier_columns": [
+        "Planet",
+        "Ascendant",
+        "GoodBad"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Rudraksh",
+      "identifier_columns": [
+        "Ascendant",
+        "House",
+        "Planet"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Shlokas_on_Gana",
+      "identifier_columns": [
+        "Gana",
+        "Shloka",
+        "Text",
+        "Text1"
+      ],
+      "prediction_text_column": "Text2"
+    },
+    {
+      "table_name": "Shlokas_on_Nakshatra",
+      "identifier_columns": [
+        "Nakshatra",
+        "Shloka",
+        "Text",
+        "Text1"
+      ],
+      "prediction_text_column": "Text2"
+    },
+    {
+      "table_name": "Shlokas_on_Rashi",
+      "identifier_columns": [
+        "Rashi",
+        "Shloka",
+        "Text",
+        "Text1"
+      ],
+      "prediction_text_column": "Text2"
+    },
+    {
+      "table_name": "Shlokas_on_Yoni",
+      "identifier_columns": [
+        "Yoni",
+        "Shloka",
+        "Text",
+        "Text1"
+      ],
+      "prediction_text_column": "Text2"
+    },
+    {
+      "table_name": "Sun_Reading",
+      "identifier_columns": [
+        "House",
+        "Sex",
+        "Strength"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Tara",
+      "identifier_columns": [
+        "Case"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Varna",
+      "identifier_columns": [
+        "Male_Varna",
+        "Female_Varna"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Vashya",
+      "identifier_columns": [
+        "Male_Vashya",
+        "Female_Vashya"
+      ],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "DailyPredictionText",
+      "identifier_columns": ["Trackid", "Houseno", "Cases"],
+      "prediction_text_column": "Prediction"
+    },
+    {
+      "table_name": "YearlyPredictionNew",
+      "identifier_columns": ["Year", "Ascendant"],
+      "prediction_text_column": "Yearly Prediction"
+    },
+    {
+      "table_name": "WeeklyPredictionText",
+      "identifier_columns": ["Sunsign", "Moonsign"],
+      "prediction_text_column": "Prediction"
+    },
+    {
+      "table_name": "Varsh_Lagnesh",
+      "identifier_columns": ["House", "Strength", "Sex"],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Varshesh",
+      "identifier_columns": ["Planet", "Strength", "Sex"],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "Monthly_Prediction",
+      "identifier_columns": ["Ascendant", "House", "Sex"],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "MahaDasa",
+      "identifier_columns": ["Planet", "Rasi", "House"],
+      "prediction_text_column": "Text"
+    },
+    {
+      "table_name": "AntarDasaSmall",
+      "identifier_columns": ["Mahadasa", "Antardasa"],
+      "prediction_text_column": "Text"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+/* Fix wrapping for long suggestion action buttons */
+.cl-action-button {
+    white-space: normal !important;
+    height: auto !important;
+    min-height: 40px !important;
+    text-align: left !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    display: flex !important;
+    align-items: center !important;
+    word-break: break-word !important;
+}
+
+/* Ensure the label inside the button also wraps */
+.cl-action-button span {
+    white-space: normal !important;
+}

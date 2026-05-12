@@ -1,0 +1,1784 @@
+  {
+    "user_profile": {
+      "name": "Arun",
+      "age": 70,
+      "gender": "Male",
+      "latitude": "28:39:00:N",
+      "longitude": "77:13:00:E",
+      "zone": "82:30:00:E",
+      "tcor": "S",
+      "dob": "13/12/1956",
+      "tob": "23:10:00",
+      "city": "Delhi",
+      "countrycode": "Ind.",
+      "name2": "Abha",
+      "age2": 68,
+      "gender2": "Female",
+      "latitude2": "28:39:00:N",
+      "longitude2": "77:13:00:E",
+      "zone2": "82:30:00:E",
+      "tcor2": "S",
+      "dob2": "05/05/1958",
+      "tob2": "05:45:00",
+      "city2": "Delhi",
+      "countrycode2": "Ind.",
+      "languagecode": 0
+    },
+    "records": [
+      {
+        "table": "Planet_in_House_Reading",
+        "keys": [
+          "Ascendant",
+          "House",
+          "Planet",
+          "HouseStrength"
+        ],
+        "values": [
+          [
+            5,
+            4,
+            1,
+            0
+          ],
+          [
+            5,
+            9,
+            2,
+            0
+          ],
+          [
+            5,
+            8,
+            3,
+            0
+          ],
+          [
+            5,
+            5,
+            4,
+            0
+          ],
+          [
+            5,
+            2,
+            5,
+            0
+          ],
+          [
+            5,
+            3,
+            6,
+            0
+          ],
+          [
+            5,
+            4,
+            7,
+            0
+          ],
+          [
+            5,
+            4,
+            8,
+            0
+          ],
+          [
+            5,
+            10,
+            9,
+            0
+          ],
+          [
+            5,
+            12,
+            10,
+            0
+          ],
+          [
+            5,
+            3,
+            11,
+            0
+          ],
+          [
+            5,
+            1,
+            12,
+            0
+          ]
+        ]
+      },
+      {
+        "table": "Navamsa_Reading",
+        "keys": [
+          "Ascendant",
+          "Navamsa"
+        ],
+        "values": [
+          [
+            5,
+            5
+          ]
+        ]
+      },
+      {
+        "table": "Num_Redical",
+        "keys": [
+          "Date"
+        ],
+        "values": [
+          [
+            13
+          ]
+        ]
+      },
+      {
+        "table": "Num_Lucky",
+        "keys": [
+          "Radical",
+          "LuckyNo"
+        ],
+        "values": [
+          [
+            4,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "Num_Bhagyank",
+        "keys": [
+          "Date"
+        ],
+        "values": [
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "table": "Lalkitab",
+        "keys": [
+          "Planet",
+          "House",
+          "Sex"
+        ],
+        "values": [
+          [
+            1,
+            4,
+            0
+          ],
+          [
+            2,
+            9,
+            0
+          ],
+          [
+            3,
+            8,
+            0
+          ],
+          [
+            4,
+            5,
+            0
+          ],
+          [
+            5,
+            2,
+            0
+          ],
+          [
+            6,
+            3,
+            0
+          ],
+          [
+            7,
+            4,
+            0
+          ],
+          [
+            8,
+            4,
+            0
+          ],
+          [
+            9,
+            10,
+            0
+          ]
+        ]
+      },
+      {
+        "table": "Mars_Reading",
+        "keys": [
+          "House",
+          "Sex",
+          "Strength"
+        ],
+        "values": [
+          [
+            8,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "Moon_Reading",
+        "keys": [
+          "House",
+          "Sex",
+          "Strength"
+        ],
+        "values": [
+          [
+            9,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "Nakshatra_Reading",
+        "keys": [
+          "Nakshatra",
+          "Charan",
+          "Sex",
+          "Section"
+        ],
+        "values": [
+          [
+            1,
+            2,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            0,
+            2
+          ],
+          [
+            1,
+            2,
+            0,
+            3
+          ],
+          [
+            1,
+            2,
+            0,
+            4
+          ],
+          [
+            1,
+            2,
+            0,
+            5
+          ],
+          [
+            1,
+            2,
+            0,
+            6
+          ],
+          [
+            1,
+            2,
+            0,
+            7
+          ],
+          [
+            1,
+            2,
+            0,
+            8
+          ],
+          [
+            1,
+            2,
+            0,
+            9
+          ],
+          [
+            1,
+            2,
+            0,
+            10
+          ],
+          [
+            1,
+            2,
+            0,
+            11
+          ],
+          [
+            1,
+            2,
+            0,
+            12
+          ],
+          [
+            1,
+            2,
+            0,
+            14
+          ],
+          [
+            1,
+            2,
+            0,
+            15
+          ],
+          [
+            1,
+            2,
+            0,
+            16
+          ],
+          [
+            1,
+            2,
+            0,
+            17
+          ]
+        ]
+      },
+      {
+        "table": "Sun_Reading",
+        "keys": [
+          "House",
+          "Sex",
+          "Strength"
+        ],
+        "values": [
+          [
+            4,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "Paya_Vichar",
+        "keys": [
+          "House",
+          "Sex",
+          "Strength"
+        ],
+        "values": [
+          [
+            9,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "Shlokas_On_Gana",
+        "keys": [
+          "Gana",
+          "Shloka"
+        ],
+        "values": [
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "Shlokas_On_Nakshatra",
+        "keys": [
+          "Nakshatra",
+          "Shloka"
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ]
+        ]
+      },
+      {
+        "table": "Shlokas_on_Rashi",
+        "keys": [
+          "Rashi",
+          "Shloka"
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            8
+          ]
+        ]
+      },
+      {
+        "table": "Shlokas_on_Yoni",
+        "keys": [
+          "Yoni",
+          "Shloka"
+        ],
+        "values": [
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "BirthOnDayTime",
+        "keys": [
+          "Day",
+          "Time"
+        ],
+        "values": [
+          [
+            5,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "table": "BirthOnNakshatra",
+        "keys": [
+          "Nakshatra"
+        ],
+        "values": [
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "table": "BirthOnRasiLagna",
+        "keys": [
+          "LagnaRasi",
+          "Rasi"
+        ],
+        "values": [
+          [
+            5,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "LordOfHouseInHouse",
+        "keys": [
+          "HouseLord",
+          "InHouse"
+        ],
+        "values": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            10,
+            3
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            12,
+            9
+          ]
+        ]
+      },
+      {
+        "table": "PlanetFromMoon",
+        "keys": [
+          "Planet",
+          "House"
+        ],
+        "values": [
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            12
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            2
+          ]
+        ]
+      },
+      {
+        "table": "PlanetInHouse",
+        "keys": [
+          "Planet",
+          "House"
+        ],
+        "values": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            9,
+            10
+          ]
+        ]
+      },
+      {
+        "table": "PlanetInRasi",
+        "keys": [
+          "Planet",
+          "Rasi"
+        ],
+        "values": [
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            12
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            2
+          ]
+        ]
+      },
+      {
+        "table": "RasiInHouse",
+        "keys": [
+          "Rasi",
+          "House"
+        ],
+        "values": [
+          [
+            1,
+            9
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            4,
+            12
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            10,
+            6
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            12,
+            8
+          ]
+        ]
+      }
+    ],
+    "records2": [
+      {
+        "table": "Planet_in_House_Reading",
+        "keys": [
+          "Ascendant",
+          "House",
+          "Planet",
+          "HouseStrength"
+        ],
+        "values": [
+          [
+            5,
+            9,
+            1,
+            0
+          ],
+          [
+            5,
+            4,
+            2,
+            0
+          ],
+          [
+            5,
+            7,
+            3,
+            0
+          ],
+          [
+            5,
+            8,
+            4,
+            0
+          ],
+          [
+            5,
+            3,
+            5,
+            0
+          ],
+          [
+            5,
+            8,
+            6,
+            0
+          ],
+          [
+            5,
+            5,
+            7,
+            0
+          ],
+          [
+            5,
+            3,
+            8,
+            0
+          ],
+          [
+            5,
+            9,
+            9,
+            0
+          ],
+          [
+            5,
+            12,
+            10,
+            0
+          ],
+          [
+            5,
+            3,
+            11,
+            0
+          ],
+          [
+            5,
+            1,
+            12,
+            0
+          ]
+        ]
+      },
+      {
+        "table": "Navamsa_Reading",
+        "keys": [
+          "Ascendant",
+          "Navamsa"
+        ],
+        "values": [
+          [
+            1,
+            7
+          ]
+        ]
+      },
+      {
+        "table": "Num_Redical",
+        "keys": [
+          "Date"
+        ],
+        "values": [
+          [
+            5
+          ]
+        ]
+      },
+      {
+        "table": "Num_Lucky",
+        "keys": [
+          "Radical",
+          "LuckyNo"
+        ],
+        "values": [
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      {
+        "table": "Num_Bhagyank",
+        "keys": [
+          "Date"
+        ],
+        "values": [
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "table": "Lalkitab",
+        "keys": [
+          "Planet",
+          "House",
+          "Sex"
+        ],
+        "values": [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            2,
+            8,
+            0
+          ],
+          [
+            3,
+            11,
+            0
+          ],
+          [
+            4,
+            12,
+            0
+          ],
+          [
+            5,
+            7,
+            0
+          ],
+          [
+            6,
+            12,
+            0
+          ],
+          [
+            7,
+            9,
+            0
+          ],
+          [
+            8,
+            7,
+            0
+          ],
+          [
+            9,
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "table": "Mars_Reading",
+        "keys": [
+          "House",
+          "Sex",
+          "Strength"
+        ],
+        "values": [
+          [
+            11,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "Moon_Reading",
+        "keys": [
+          "House",
+          "Sex",
+          "Strength"
+        ],
+        "values": [
+          [
+            8,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "Nakshatra_Reading",
+        "keys": [
+          "Nakshatra",
+          "Charan",
+          "Sex",
+          "Section"
+        ],
+        "values": [
+          [
+            17,
+            3,
+            0,
+            1
+          ],
+          [
+            17,
+            3,
+            0,
+            2
+          ],
+          [
+            17,
+            3,
+            0,
+            3
+          ],
+          [
+            17,
+            3,
+            0,
+            4
+          ],
+          [
+            17,
+            3,
+            0,
+            5
+          ],
+          [
+            17,
+            3,
+            0,
+            6
+          ],
+          [
+            17,
+            3,
+            0,
+            7
+          ],
+          [
+            17,
+            3,
+            0,
+            8
+          ],
+          [
+            17,
+            3,
+            0,
+            9
+          ],
+          [
+            17,
+            3,
+            0,
+            10
+          ],
+          [
+            17,
+            3,
+            0,
+            11
+          ],
+          [
+            17,
+            3,
+            0,
+            12
+          ],
+          [
+            17,
+            3,
+            0,
+            14
+          ],
+          [
+            17,
+            3,
+            0,
+            15
+          ],
+          [
+            17,
+            3,
+            0,
+            16
+          ],
+          [
+            17,
+            3,
+            0,
+            17
+          ]
+        ]
+      },
+      {
+        "table": "Sun_Reading",
+        "keys": [
+          "House",
+          "Sex",
+          "Strength"
+        ],
+        "values": [
+          [
+            1,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "Paya_Vichar",
+        "keys": [
+          "House",
+          "Sex",
+          "Strength"
+        ],
+        "values": [
+          [
+            8,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "Shlokas_On_Gana",
+        "keys": [
+          "Gana",
+          "Shloka"
+        ],
+        "values": [
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "Shlokas_On_Nakshatra",
+        "keys": [
+          "Nakshatra",
+          "Shloka"
+        ],
+        "values": [
+          [
+            17,
+            1
+          ],
+          [
+            17,
+            2
+          ],
+          [
+            17,
+            3
+          ],
+          [
+            17,
+            4
+          ],
+          [
+            17,
+            5
+          ]
+        ]
+      },
+      {
+        "table": "Shlokas_on_Rashi",
+        "keys": [
+          "Rashi",
+          "Shloka"
+        ],
+        "values": [
+          [
+            8,
+            1
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            8,
+            8
+          ]
+        ]
+      },
+      {
+        "table": "Shlokas_on_Yoni",
+        "keys": [
+          "Yoni",
+          "Shloka"
+        ],
+        "values": [
+          [
+            11,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "BirthOnDayTime",
+        "keys": [
+          "Day",
+          "Time"
+        ],
+        "values": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "BirthOnNakshatra",
+        "keys": [
+          "Nakshatra"
+        ],
+        "values": [
+          [
+            17
+          ]
+        ]
+      },
+      {
+        "table": "BirthOnRasiLagna",
+        "keys": [
+          "LagnaRasi",
+          "Rasi"
+        ],
+        "values": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            8
+          ]
+        ]
+      },
+      {
+        "table": "LordOfHouseInHouse",
+        "keys": [
+          "HouseLord",
+          "InHouse"
+        ],
+        "values": [
+          [
+            1,
+            11
+          ],
+          [
+            2,
+            12
+          ],
+          [
+            3,
+            12
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            12
+          ],
+          [
+            7,
+            12
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            9,
+            7
+          ],
+          [
+            10,
+            9
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            12,
+            7
+          ]
+        ]
+      },
+      {
+        "table": "PlanetFromMoon",
+        "keys": [
+          "Planet",
+          "House"
+        ],
+        "values": [
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            12
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            8,
+            12
+          ],
+          [
+            9,
+            6
+          ]
+        ]
+      },
+      {
+        "table": "PlanetInHouse",
+        "keys": [
+          "Planet",
+          "House"
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            4,
+            12
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            12
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            9,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "PlanetInRasi",
+        "keys": [
+          "Planet",
+          "Rasi"
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            4,
+            12
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            12
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            9,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "RasiInHouse",
+        "keys": [
+          "Rasi",
+          "House"
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            11,
+            11
+          ],
+          [
+            12,
+            12
+          ]
+        ]
+      }
+    ],
+    "matchrecords": [
+      {
+        "table": "Matching1",
+        "keys": [
+          "Male_Sign",
+          "Female_Sign"
+        ],
+        "values": [
+          [
+            1,
+            8
+          ]
+        ]
+      },
+      {
+        "table": "Matching3",
+        "keys": [
+          "Case",
+          "Bhakoot",
+          "MarsDosh"
+        ],
+        "values": [
+          [
+            4,
+            5,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "Matching2",
+        "keys": [
+          "NadiMale",
+          "NadiFemale",
+          "ManglkMale",
+          "ManglikFemale",
+          "case"
+        ],
+        "values": [
+          [
+            1,
+            2,
+            1,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "Matching4",
+        "keys": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "values": [
+          [
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "Matching5",
+        "keys": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "Sex"
+        ],
+        "values": [
+          [
+            1,
+            2,
+            1,
+            2,
+            0
+          ]
+        ]
+      },
+      {
+        "table": "Varna",
+        "keys": [
+          "Male_Varna",
+          "Female_Varna"
+        ],
+        "values": [
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "table": "Vashya",
+        "keys": [
+          "Male_Vashya",
+          "Female_Vashya"
+        ],
+        "values": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "table": "Tara",
+        "keys": [
+          "Case"
+        ],
+        "values": [
+          [
+            3
+          ]
+        ]
+      },
+      {
+        "table": "GrahMaitri",
+        "keys": [
+          "Male_Sign_Lord",
+          "Female_Sign_lord"
+        ],
+        "values": [
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "table": "Gana",
+        "keys": [
+          "Male",
+          "Female"
+        ],
+        "values": [
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "table": "Bhakoot",
+        "keys": [
+          "Case"
+        ],
+        "values": [
+          [
+            6
+          ]
+        ]
+      },
+      {
+        "table": "Nadi",
+        "keys": [
+          "Male_Nadi",
+          "Female_Nadi"
+        ],
+        "values": [
+          [
+            0,
+            1
+          ]
+        ]
+      }
+    ],
+    "ashtkoot_guna": {
+      "labels": [
+        "guna",
+        "girl",
+        "boy",
+        "score",
+        "max"
+      ],
+      "data": [
+        [
+          "Varan",
+          "Vipra",
+          "Kshatriya",
+          "0.00",
+          "1"
+        ],
+        [
+          "Vashya",
+          "Keetak",
+          "Chatushpad",
+          "1.00",
+          "2"
+        ],
+        [
+          "Tara",
+          "Mitra",
+          "Vipat",
+          "1.50",
+          "3"
+        ],
+        [
+          "Yoni",
+          "Mrig",
+          "Ashwa",
+          "3.00",
+          "4"
+        ],
+        [
+          "Maitri",
+          "Mars",
+          "Mars",
+          "5.00",
+          "5"
+        ],
+        [
+          "Gana",
+          "Deva",
+          "Deva",
+          "6.00",
+          "6"
+        ],
+        [
+          "Bhakut",
+          "Scorpio",
+          "Aries",
+          "0.00*",
+          "7"
+        ],
+        [
+          "Nadi",
+          "Madhya",
+          "Adya",
+          "8.00",
+          "8"
+        ]
+      ],
+      "total": [
+        "24.50",
+        "36"
+      ]
+    },
+    "m_predictions": [
+      {
+        "table": "Matching",
+        "keys": [
+          "Manglik",
+          "Ashtakoot",
+          "Conclusion"
+        ],
+        "predictions": [
+          "\tYou are Manglik since Mars is positioned in the Eighth house from your Lagna.\r\n\r\n\tYour Manglik effect is cancelled if Mars is posited in Capricorn in the 7th house or in Pisces in the 8th house.\n\n\tSince Mars in your horoscope is placed in the Eighth house in Pisces, the Manglik Dosha loses its strength.\r\n\r\n\tAbha is not Manglik since Mars is positioned in the Eleventh house from their Lagna.\r\n\r\n\tTrishat Ekadashe Rahu Trishat Ekadashe Shanih.\n\tTrishat Ekadashe Bhaumah Sarvadoshavinashakrit. \r\n\r\n\tIf you are Manglik, and in your partner's horoscope Rahu, Mars, or Saturn is placed in the 3rd, 6th, or 11th house, then your Manglik Dosha loses its significance.\n\n\tBecause Mars in Abha's horoscope is placed in the Eleventh house, the Manglik Dosha mutually loses its strength.\r\n\r\n\t\tThe Manglik match suggests that the match between you and Abha is acceptable. ",
+          "\tBhakoot Dosha is not Severe since the Rashi lords are same.\r\n\r\n\tYou belong to the Simha Varga, and Abha belongs to the Sarp Varga. The relationship between you two is Neutral.\n\n\tAshtakoot matching suggests that the match between you and Abha is Very Good.",
+          "\tThe match is compatible since there is no Manglik Dosha and the Ashtakoot match is also acceptable."
+        ]
+      },
+      {
+        "table": "Yoni",
+        "keys": [
+          "Yoni"
+        ],
+        "predictions": [
+          "\tThe Yoni of Arun is Ashwa and that of Abha is Mrig. Because their Yonis are different and share a natural enmity, this is considered an unfavorable match. Their choices and preferences will often clash, leading to regular quarrels in their married life. At times, these disagreements could escalate into severe domestic tension. The family atmosphere may become fraught with stress, and the couple might even lash out at one another. These conflicts often stem from a lack of mutual understanding and patience. If wisdom and intelligence are not applied at the right time, these tensions could even lead to legal difficulties. In essence, there may be a complete absence of love and harmony. Mutual trust will be missing, and financial losses may occur. However, if both partners utilize their common sense and strive for understanding, the situation can be brought under control. Otherwise, continuous fighting will lead to a lack of prosperity and happiness. Be careful, as there is a high probability of struggle in this marriage."
+        ]
+      }
+    ]
+  }

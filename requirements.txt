@@ -1,0 +1,48 @@
+# ──────────────────────────────────────────────────────────────
+# ChatBot_Real_V2 – Session-Scoped Astrology RAG
+# ──────────────────────────────────────────────────────────────
+
+# ── LangChain / LangGraph ─────────────────────────────────────
+langchain>=0.3
+langchain-community>=0.3
+langgraph>=0.2
+
+# ── Embeddings (local) ────────────────────────────────────────
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch
+torchvision
+torchaudio
+sentence-transformers>=2.7
+langchain-huggingface>=0.1
+transformers>=4.43.0
+accelerate>=0.26.0
+
+# ── Vector Store (FAISS in-memory) ────────────────────────────
+faiss-cpu>=1.7
+numpy>=1.24
+
+# ── LLM Providers ────────────────────────────────────────────
+langchain-ollama
+langchain-groq>=0.2
+langchain-openai>=0.2
+langchain-google-genai>=1.0
+sarvamai
+
+# ── Utilities ─────────────────────────────────────────────────
+python-dotenv>=1.0
+pydantic>=2.0
+pydantic-settings>=2.0
+
+# ── API Server ────────────────────────────────────────────────
+fastapi>=0.100
+uvicorn>=0.20
+httpx>=0.24
+
+# ── Additional ────────────────────────────────────────────────
+google-genai>=0.3.0
+chainlit>=1.1.000
+xxhash
+ormsgpack
+streamlit
+pandas
+redis

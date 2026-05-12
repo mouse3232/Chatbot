@@ -1,0 +1,12 @@
+{
+  "semantic_split_threshold": 0.507,
+  "min_chunk_words": 40,
+  "max_chunk_words": 500,
+  "short_row_threshold": 80,
+  "_calibration": {
+    "n_pairs": 861,
+    "mean": 0.5912,
+    "median": 0.5875,
+    "std": 0.084
+  }
+}

@@ -1,0 +1,983 @@
+{
+    "user_profile": {
+      "name": "Arun",
+      "age": 70,
+      "gender": "Male",
+      "latitude": "28:39:00:N",
+      "longitude": "77:13:00:E",
+      "zone": "82:30:00:E",
+      "tcor": "S",
+      "dob": "13/12/1956",
+      "tob": "23:10:00",
+      "city": "Delhi",
+      "countrycode": "Ind.",
+      "languagecode": 0
+    },
+    "records": [
+      {
+        "table": "Planet_in_House_Reading",
+        "keys": [
+          "Ascendant",
+          "House",
+          "Planet",
+          "HouseStrength"
+        ],
+        "values": [
+          [
+            5,
+            4,
+            1,
+            0
+          ],
+          [
+            5,
+            9,
+            2,
+            0
+          ],
+          [
+            5,
+            8,
+            3,
+            0
+          ],
+          [
+            5,
+            5,
+            4,
+            0
+          ],
+          [
+            5,
+            2,
+            5,
+            0
+          ],
+          [
+            5,
+            3,
+            6,
+            0
+          ],
+          [
+            5,
+            4,
+            7,
+            0
+          ],
+          [
+            5,
+            4,
+            8,
+            0
+          ],
+          [
+            5,
+            10,
+            9,
+            0
+          ],
+          [
+            5,
+            12,
+            10,
+            0
+          ],
+          [
+            5,
+            3,
+            11,
+            0
+          ],
+          [
+            5,
+            1,
+            12,
+            0
+          ]
+        ]
+      },
+      {
+        "table": "Navamsa_Reading",
+        "keys": [
+          "Ascendant",
+          "Navamsa"
+        ],
+        "values": [
+          [
+            5,
+            5
+          ]
+        ]
+      },
+      {
+        "table": "Num_Redical",
+        "keys": [
+          "Date"
+        ],
+        "values": [
+          [
+            13
+          ]
+        ]
+      },
+      {
+        "table": "Num_Lucky",
+        "keys": [
+          "Radical",
+          "LuckyNo"
+        ],
+        "values": [
+          [
+            4,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "Num_Bhagyank",
+        "keys": [
+          "Date"
+        ],
+        "values": [
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "table": "Lalkitab",
+        "keys": [
+          "Planet",
+          "House",
+          "Sex"
+        ],
+        "values": [
+          [
+            1,
+            4,
+            0
+          ],
+          [
+            2,
+            9,
+            0
+          ],
+          [
+            3,
+            8,
+            0
+          ],
+          [
+            4,
+            5,
+            0
+          ],
+          [
+            5,
+            2,
+            0
+          ],
+          [
+            6,
+            3,
+            0
+          ],
+          [
+            7,
+            4,
+            0
+          ],
+          [
+            8,
+            4,
+            0
+          ],
+          [
+            9,
+            10,
+            0
+          ]
+        ]
+      },
+      {
+        "table": "Mars_Reading",
+        "keys": [
+          "House",
+          "Sex",
+          "Strength"
+        ],
+        "values": [
+          [
+            8,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "Moon_Reading",
+        "keys": [
+          "House",
+          "Sex",
+          "Strength"
+        ],
+        "values": [
+          [
+            9,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "Nakshatra_Reading",
+        "keys": [
+          "Nakshatra",
+          "Charan",
+          "Sex",
+          "Section"
+        ],
+        "values": [
+          [
+            1,
+            2,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            0,
+            2
+          ],
+          [
+            1,
+            2,
+            0,
+            3
+          ],
+          [
+            1,
+            2,
+            0,
+            4
+          ],
+          [
+            1,
+            2,
+            0,
+            5
+          ],
+          [
+            1,
+            2,
+            0,
+            6
+          ],
+          [
+            1,
+            2,
+            0,
+            7
+          ],
+          [
+            1,
+            2,
+            0,
+            8
+          ],
+          [
+            1,
+            2,
+            0,
+            9
+          ],
+          [
+            1,
+            2,
+            0,
+            10
+          ],
+          [
+            1,
+            2,
+            0,
+            11
+          ],
+          [
+            1,
+            2,
+            0,
+            12
+          ],
+          [
+            1,
+            2,
+            0,
+            14
+          ],
+          [
+            1,
+            2,
+            0,
+            15
+          ],
+          [
+            1,
+            2,
+            0,
+            16
+          ],
+          [
+            1,
+            2,
+            0,
+            17
+          ]
+        ]
+      },
+      {
+        "table": "Sun_Reading",
+        "keys": [
+          "House",
+          "Sex",
+          "Strength"
+        ],
+        "values": [
+          [
+            4,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "Paya_Vichar",
+        "keys": [
+          "House",
+          "Sex",
+          "Strength"
+        ],
+        "values": [
+          [
+            9,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "Shlokas_On_Gana",
+        "keys": [
+          "Gana",
+          "Shloka"
+        ],
+        "values": [
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "Shlokas_On_Nakshatra",
+        "keys": [
+          "Nakshatra",
+          "Shloka"
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ]
+        ]
+      },
+      {
+        "table": "Shlokas_on_Rashi",
+        "keys": [
+          "Rashi",
+          "Shloka"
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            8
+          ]
+        ]
+      },
+      {
+        "table": "Shlokas_on_Yoni",
+        "keys": [
+          "Yoni",
+          "Shloka"
+        ],
+        "values": [
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "BirthOnDayTime",
+        "keys": [
+          "Day",
+          "Time"
+        ],
+        "values": [
+          [
+            5,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "table": "BirthOnNakshatra",
+        "keys": [
+          "Nakshatra"
+        ],
+        "values": [
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "table": "BirthOnRasiLagna",
+        "keys": [
+          "LagnaRasi",
+          "Rasi"
+        ],
+        "values": [
+          [
+            5,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "table": "LordOfHouseInHouse",
+        "keys": [
+          "HouseLord",
+          "InHouse"
+        ],
+        "values": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            10,
+            3
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            12,
+            9
+          ]
+        ]
+      },
+      {
+        "table": "PlanetFromMoon",
+        "keys": [
+          "Planet",
+          "House"
+        ],
+        "values": [
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            12
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            2
+          ]
+        ]
+      },
+      {
+        "table": "PlanetInHouse",
+        "keys": [
+          "Planet",
+          "House"
+        ],
+        "values": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            9,
+            10
+          ]
+        ]
+      },
+      {
+        "table": "PlanetInRasi",
+        "keys": [
+          "Planet",
+          "Rasi"
+        ],
+        "values": [
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            12
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            2
+          ]
+        ]
+      },
+      {
+        "table": "RasiInHouse",
+        "keys": [
+          "Rasi",
+          "House"
+        ],
+        "values": [
+          [
+            1,
+            9
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            4,
+            12
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            10,
+            6
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            12,
+            8
+          ]
+        ]
+      }
+    ],
+    "remedies": [
+      {
+        "table": "LKUpay",
+        "keys": [
+          "Planet",
+          "House"
+        ],
+        "values": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            9,
+            10
+          ]
+        ]
+      },
+      {
+        "table": "Num_Remedies",
+        "keys": [
+          "Radical",
+          "Item"
+        ],
+        "values": [
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            4,
+            10
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            4,
+            12
+          ],
+          [
+            4,
+            13
+          ],
+          [
+            4,
+            14
+          ],
+          [
+            4,
+            15
+          ],
+          [
+            4,
+            16
+          ],
+          [
+            4,
+            17
+          ],
+          [
+            4,
+            18
+          ],
+          [
+            4,
+            19
+          ],
+          [
+            4,
+            20
+          ],
+          [
+            4,
+            21
+          ],
+          [
+            4,
+            22
+          ]
+        ]
+      },
+      {
+        "table": "KaalSarp",
+        "keys": [
+          "Case",
+          "House"
+        ],
+        "values": [
+          [
+            2,
+            0
+          ]
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "table": "LK GrahRashi",
+        "keys": [
+          "Sun",
+          "Mon",
+          "Mar",
+          "Mer",
+          "Jup",
+          "Ven",
+          "Sat",
+          "Rah",
+          "Ket"
+        ],
+        "predictions": [
+          "Accumulate wealth for others till the end.",
+          "Pitcher full of pearls, protector of distressed.",
+          "Trap of death.",
+          "Voice of a hermit or blessing.",
+          "Master of the universe.",
+          "Chaste or truthful women.",
+          "Snake of water.",
+          "Religious.",
+          "Treads his own path quietly, opportunist."
+        ]
+      },
+      {
+        "table": "LKDebts",
+        "keys": [
+          "Father's Debts"
+        ],
+        "predictions": [
+          "PLANETARY POSITIONS:\n\tIf either Venus, Mercury, or Rahu—or any combination of these three—are situated in the 2nd, 5th, 9th, or 12th house of the native's horoscope, then there will be a burden of father's debts.\n\nINDICATIONS:\n\tReplacing or defaming the family priest, destroying a shrine constructed within the residence, or cutting down a sacred long pepper tree.\n\nEVENTS:\n\tThe hair of any elder in the family will turn white. After turning white, the hair color may start to become pale. The native may suffer from a persistent cough or face situations where they are blamed for the wrongdoings of others.\r\n\tYour horoscope is free from Father's Debts.\n"
+        ]
+      },
+      {
+        "table": "Ratna_Vichar_House",
+        "keys": [
+          "FavorableGems",
+          "Details",
+          "Dasha-wise"
+        ],
+        "predictions": [
+          "\tWearing the Rub or Emerald gem is highly auspicious for you. By wearing it, you can expect all-round development, financial gains, and progress on the professional front.\r\n\r\n\tThe Ruby gem is your life stone; wearing it will ensure your health remains excellent. It will enhance your confidence and reputation, alongside progress on the professional front.\r\n\r\n\tThe Emerald gem is your Karaka Ratna. By wearing it, you can expect growth on the professional front. You will earn financial gains, wealth, and property, along with an inflow of new energy into your life.\r\n\r\n\tTherefore, you must wear the above-mentioned gems throughout your life. By wearing all these gems, the beneficence of all planets and all types of comforts can be expected. All the above-mentioned gems can be worn without considering or analyzing any Dasha and transit, as all of them are highly auspicious.\r\n\tThe Diamond Yellow-Sapphire Cat's eye Cora or Pearl gems are auspicious for you, but these gems are capable of yielding both auspicious and inauspicious results depending on the Dasha. Therefore, if you wear these during the Dasha of their ruling planet or a friendly planet, they will generate beneficial results. It would be better not to wear these gems during the Dasha of an enemy planet. During that time, remedies should be performed by wearing a Rudraksha, chanting the Mantra, or donating articles related to the Dasha Lord.\r\n\tGomed is highly negative for you; therefore, it would be better not to wear it. By wearing it, you might suffer from mental tension and health troubles. Therefore, if you wish to wear it, you must check its auspiciousness and keep monitoring it across various Dashas, as this gem might prove highly problematic for you in a specific Dasha or transit.\r\n\tWearing the Blue-Sapphire gem might bring a lot of trouble for you. You should not wear it at all because there is no probability of obtaining auspicious results in any Dasha or transit. By wearing it, you might suffer from troubles related to your social life, health, and finances.\r\n",
+          "Ruby\r\n\tIn your horoscope, the Sun is placed in the 4th house, which is auspicious for you. By wearing its gem, Ruby, your comfort and prosperity shall be enhanced. By wearing it, you would become wealthy and rich. This gem shall grant you significant popularity shortly. Your relationship with your father will be strengthened, and you will become a favorite among your kith and kin. You might have to stay away from your native place, but you could benefit from your friends in terms of gaining power and recognition. The Sun's gem, Ruby, shall grant you a higher post, social reputation, and an honorable position.\r\n\r\n\tFor your Leo ascendant, the Sun is the lord of the 1st house. By wearing its gemstone, Ruby, there shall be an increase in your immunity, physical fitness, working efficiency, courage, and energy level. You can expect overall development in your personality, happiness, health, and influence. This gem shall also bless you with a happy married life and a disciplined lifestyle. By wearing this gem, you shall gain the ability to achieve success in government-related works very quickly.\r\n\r\n\tWear a Ruby studded in a gold ring on the ring finger on a Sunday morning after bathing. Purify the gem by washing it with Panchamrita and offering incense and a lamp to it. After putting it on, recite the “Om Ghrini Suryay Namah” mantra at least 108 times. Afterward, donate jaggery, wheat, sandalwood, and red cloth. The weight of this gem should be 4 to 8 carats.\n\n\tAvoid wearing Blue Sapphire and Gomed alongside Ruby. If you find wearing these gems absolutely necessary, wear them in a locket or on the other hand. If you are unable to wear Ruby, you can wear Red Tourmaline, Pink Agate, Garnet, or a one-faced Rudraksha.\r\n\r\nEmerald\r\n\tThe planet Mercury, placed in the 5th house, is auspicious for you; so, by wearing its gem, Emerald, you will become happy and very intelligent. The auspiciousness of the gem would make you an expert in arguments and logical discussions. You would be sweet in your language. This gem shall make you truthful, tolerant, decent, and satisfied. After wearing this gem, you would make money with your intelligence. This gem shall help you lead a successful professional life with the help of your intelligence and education. You won't become a victim of excessive greed.\r\n\r\n\tFor your Leo ascendant, Mercury is the lord of the 2nd and 11th houses. It is auspicious for you; thus, by wearing its gemstone, Emerald, you will be able to enhance your accumulated wealth. You may see an increase in family members and greater unity within the family. Wearing this gem will provide ample opportunities to earn money through your intelligence, as it helps generate income from various sources. Additionally, it will equip you with excellent communication skills.\r\n\r\n\tWear an Emerald studded in a gold ring on the little finger on a Wednesday morning after bathing. Purify the gem by washing it with Panchamrita and offering incense and a lamp to it. After putting it on, recite the “Om Boong Budhaay Namah” mantra at least 108 times. Afterward, donate green dal, musk (Kastoori), bronze, and green cloth. The weight of this gem should be 3 to 6 carats.\n\n\tYou can also wear an Emerald in a locket, rosary, or bracelet, or on the other hand. If you are unable to wear Emerald, you can wear green tourmaline, jade, green agate, peridot, or a four-faced Rudraksha.\r\n\r\nDiamond\r\n\tThe planet Venus, placed in the third house of your horoscope, is auspicious for you. By wearing its gemstone, diamond, you shall be highly interested in music and art. Your listening skills will be enhanced. This gemstone shall bring you wealth and prosperity. You shall become influential, learned, fortunate, and fond of traveling. The power of this gem will make you capable and bold as you strive for material comforts. Wearing this gemstone shall also enhance your marital bliss.\r\n\r\n\tFor your Leo ascendant, Venus is the lord of the 10th and 3rd houses. It is auspicious for you; hence, wearing its gemstone, diamond, will improve your social reputation, confidence, working efficiency, behavioral skills, influence, and professional life. It can make you attractive, generous, patient, popular, humorous, and entertaining. You will find happiness through your children. In your career, you can expect a good job and professional excellence. You may also earn through music or the arts. This gemstone will bring success and wealth in acting, singing, and politics. You can wear a diamond to achieve success in your field through hard work.\r\n\r\n\tWear a Diamond studded in a gold ring on a Friday morning on the ring finger after bathing. Purify the gem by washing it with Panchamrita and offering incense and a lamp to it. After putting it on, recite the “Om Shoong Shukraay Namah” mantra at least 108 times. Afterward, donate rice, ghee, silver, and white cloth. The weight of this gem should be more than 1 carat. It can also be worn in small pieces.\n\n\tAvoid wearing Ruby, Coral, and Yellow Sapphire alongside Diamond. If you find wearing these gems absolutely necessary, wear them in a locket, rosary, bracelet, or on the other hand. If you are unable to wear Diamond, you can wear opal, American diamond, crystal, or a six-faced Rudraksha.\r\n\r\nYellow-Sapphire\r\n\tThe planet Jupiter, placed in the second house of your horoscope, is auspicious for you; therefore, by wearing its gem, yellow sapphire, you shall be refined in your speech and known for your pleasant demeanor. It will help increase your accumulated wealth and confidence. By wearing this gem, you will become more philosophical in your thinking. You will also earn wealth, abundance, glory, and recognition. Additionally, you shall achieve good results in the field of education.\r\n\r\n\tFor your Leo ascendant, Jupiter is the lord of the 5th and 8th houses. It is auspicious for you, so by wearing its gemstone, Yellow Sapphire, your longevity shall be enhanced. By wearing this gem, you shall be happy in matters related to love relationships, entertainment, materialistic comforts, children, and knowledge. The auspiciousness of this gem can bless you with children's comfort. You would be interested in subjects like mathematics, astrology, scriptures, Vedas, and philosophy.\r\n\r\n\tWear a Yellow Sapphire studded in a gold ring on the index finger on a Thursday morning after bathing. Purify the gem by washing it with Panchamrita and offering incense and a lamp to it. After putting it on, recite the “Om Bring Brihaspatye Namah” mantra at least 108 times. Afterward, donate chana dal (gram), turmeric, and yellow cloth. The weight of this gem should be 4 to 8 carats.\n\n\tAvoid wearing Diamond and Gomed alongside Yellow Sapphire. If you find wearing these gems absolutely necessary, wear them in a locket, rosary, bracelet, or on the other hand. If you are unable to wear Yellow Sapphire, you can wear Topaz, yellow agate, yellow stone (Pitambari), or a five-faced Rudraksha.\r\n\r\nCat's eye\r\n\tThe planet Ketu, placed in the 10th house of your horoscope, is auspicious for you. By wearing its gemstone, Cat's Eye, you will become skilled in sculpture and remain cool, calm, and composed. You will be successful in attaining spiritual knowledge. After wearing this gem, you will become sociable, admirable, and impressive. You will gain from travels and avoid wasting energy on useless activities. The auspiciousness of this gem will help you stay focused on accomplishing your ambitions.\r\n\r\n\tKetu is in Taurus and its lord Venus is in the third house. Therefore, by wearing Cat's eye, you would be able to use your power and intelligence successfully. This gem shall make you influential and famous. You would be getting all types of comforts. By wearing this gem, you shall gain the support, affection, and cooperation of your siblings. It can enhance your destiny, thereby giving you an increase in the inflow of money. It shall protect you from misfortunes. It would make you determined, a practitioner of Yoga, and an erudite scholar with a sharp memory.\r\n\r\n\tWear a Cat’s Eye studded in a silver ring on a Thursday at sunset on the ring finger after bathing. Purify the gem by washing it with Panchamrita and offering incense and a lamp to it. After putting it on, recite the “Om Keng Ketave Namah” mantra at least 108 times. Following this, donate seven types of grains, a coconut, and a smoky-colored cloth. The weight of this gem should be between 8 and 10 carats.\n\n\tYou can also wear it in a locket, rosary, or bracelet, or on the other hand. If you are unable to wear Cat’s Eye, you can wear its substitute gems or a nine-faced Rudraksha. Ruby and Hessonite should not be worn along with Cat’s Eye.\r\n\r\nCoral\r\n\tMars, placed in the eighth house of your horoscope, is auspicious for you. By wearing its gemstone, coral, you shall overcome obstacles and difficulties. The auspiciousness of this gem will help you achieve your goals with the help of well-wishers. It will protect you from sudden accidents and injuries. You will become disciplined and follow rules and regulations sincerely. This gem will enhance your savings potential and the inflow of money. It will improve marital bliss and bring sweetness to your speech.\r\n\r\n\tFor your Leo ascendant, Mars is the lord of the 4th and 9th houses, so by wearing its gem, Coral, you shall strive to improve your destiny through hard work. The auspicious impact of this gem shall make you happy, religious, and fortunate. This gem shall bring happiness from your mother and success in property matters. Your daily routine and work life shall be good, and it will certainly improve your professional life.\r\n\r\n\tWear a Coral studded in a silver ring on the ring finger on a Tuesday morning after bathing. Purify the gem by washing it with Panchamrita and offering incense and a lamp to it. After putting it on, recite the “Om Ang Angaar kaay Namah” mantra at least 108 times. Afterward, donate rice, jaggery, copper, and red cloth. The weight of this gem should be 6 to 8 carats.\n\n\tAvoid wearing Blue Sapphire, Diamond, and Gomed alongside Coral. If you find wearing these gems absolutely necessary, wear them in a locket, rosary, bracelet, or on the other hand. If you are unable to wear Coral, you can wear Red Agate or a three-faced Rudraksha.\r\n\r\nPearl\r\n\tIn your chart, the Moon in the 9th house is auspicious. Wearing its gemstone, the pearl, will make you learned and bold. Your destiny will improve, and the pearl's influence will help you accumulate significant property. You will also benefit from foreign journeys. It will turn your thinking toward spirituality, making you more interested, devoted, and confident in religious activities.\r\n\r\n\tFor your Leo ascendant, the Moon is the lord of the 12th house; therefore, by wearing its gem, pearl, your worries regarding expenses shall decrease. Your problems on the professional front shall also diminish. Your mental satisfaction shall increase. You would be able to protect yourself from losses. You can also wear it to benefit from overseas journeys. This gem shall also protect you from debts.\r\n\r\n\tWear a Pearl studded in a silver ring on the little finger on a Monday morning after bathing. Purify the gem by washing it with Panchamrita and offering incense and a lamp to it. After putting it on, recite the “Om Saung Somaay Namah” mantra at least 108 times. Afterward, donate rice, sugar, silver, and white cloth. The weight of this gem should be 4 to 10 carats.\n\n\tAvoid wearing Blue Sapphire and Gomed alongside Pearl. If you find wearing these gems absolutely necessary, wear them in a locket, rosary, bracelet, or on the other hand. If you are unable to wear Pearl, you can wear White Moonstone, White Agate, or a two-faced Rudraksha.\r\n\r\nGomed\r\n\tThe planet Rahu, placed in the 4th house of your horoscope, is incapable of yielding fully auspicious results. By wearing its gemstone, hessonite, you may face problems stemming from differences of opinion with your mother. Senior officers might create trouble for you. You may remain unhappy at heart after wearing it, and there will likely be no increase in your material comforts. You might not be able to stay in your native place; instead, you may have to remain away from your home or country for long periods. It is also probable that you might not receive the required support from your life partner during difficult times. Obstacles may hinder your progress, and your feelings could be hurt by a lack of expected social honor.\r\n\r\n\tRahu is in Scorpio, and its lord Mars is in the 8th house. Therefore, by wearing Gomed, your work efficiency may decrease. It might cause accidents and injuries. You will not show interest in working for the welfare of the country. The probability of inheriting parental property will decrease. This gem is unfavorable for maintaining the association of close relatives. There will be no stability in the inflow of money. After wearing this gem, you may suffer from stomach pain, anal-related diseases, and excessive blood loss. It will increase the fear of sudden death.\r\n\r\nBlue-Sapphire\r\n\tThe planet Saturn placed in the 4th house of your horoscope is incapable of yielding its fully auspicious results. By wearing its gemstone, blue sapphire, you shall suffer from a lack of patience and excessive greed. This gem might cause troubles related to your job, marriage, and children. You might incur losses from your enemies, and your health might deteriorate. You might fall into bad company, increasing your mental tensions and troubles. You might experience negative results even in your married life and be compelled to stay away from your native place. This gem can also cause tension for your parents, and you might be deprived of your parental property.\r\n\r\n\tFor your Leo ascendant, Saturn is the 6th and 7th lord. It is inauspicious for you; therefore, by wearing its gemstone, Blue Sapphire, you may encounter problems in employment. You might become selfish, indecent, or cruel. This gem will not prove beneficial for wealth, power, status, or position. It may also create tensions and conspiracies, and you might incur losses in partnership businesses.\r\n\r\n",
+          "Jupiter\r\n(14/11/2021-14/11/2037)\r\n\tIn the Dasha of Jupiter it would be excellent to wear Rub or Yellow-Sapphire. You must wear the above-mentioned gems for obtaining the complete results of Dasha.\r\n\tEmerald Coral Cat's eye Pear or Diamond are auspicious gems. For obtaining best results in this Dasha the best gem out of the given should be selected as per its signification.\r\n\tGomed is inauspicious gem for you andBlue-Sapphire is forbidden gem for you. It is better not to use inauspicious and forbidden gems as they cause lot of losses without giving any gain.\r\n\r\nSaturn\r\n(14/11/2037-14/11/2056)\r\n\tIn the Dasha of Saturn it would be excellent to wear Emerald Rub or Diamond. You must wear the above-mentioned gems for obtaining the complete results of Dasha.\r\n\tYellow-Sapphire is auspicious. For obtaining best results in this Dasha the best gem out of the given should be selected as per its signification.\r\n\tGomed Cat's eye Blue-Sapphire Cora or Pearl are inauspicious gems for you. It is better not to use inauspicious and forbidden gems as they cause lot of losses without giving any gain.\r\n\r\nMercury\r\n(14/11/2056-14/11/2073)\r\n\tIn the Dasha of Mercury it would be excellent to wear Ruby Emeral or Diamond. You must wear the above-mentioned gems for obtaining the complete results of Dasha.\r\n\tYellow-Sapphire Cat's ey or Coral are auspicious gems. For obtaining best results in this Dasha the best gem out of the given should be selected as per its signification.\r\n\tGome or Pearl are inauspicious gems for you. andBlue-Sapphire is forbidden gem for you. It is better not to use inauspicious and forbidden gems as they cause lot of losses without giving any gain.\r\n\r\n"
+        ]
+      },
+      {
+        "table": "Pitridosh",
+        "keys": [
+          "Pitridosh"
+        ],
+        "predictions": [
+          "* \tSun is under the influence of both Saturn and Rahu.\r\n* \tThe lord of the 9th House house is under the influence of Rahu.\r\n* \tThe Lagna lord is under the influence of both Saturn and Rahu.\r\n\r\n\r\n\tIn your horoscope, Pitridosha is formed due to Sun and Mars.\r\n\r\n\tSince the Sun is the Karaka of Pitridosha in your horoscope, the sins committed by your father are the root cause of your Pitridosha. To rectify this Pitridosha, you are advised to perform Gayatri Jap, Suryopasna, and the Aditya Hridaya Stotram. Perform Hawan with the Samidha of Aak and offer jaggery and wheat to a cow on Sunday.\r\n\r\n\tWith Mars being the Karaka of Pitridosha in your horoscope, the sins committed by a male member of the family in a fit of anger are the root cause of your Pitridosha. To rectify this Pitridosha, you are advised to please your younger brother or servant by donating something to them.\r\n\r\n\tHowever, if you are not experiencing the problems mentioned in the 'Symptoms of Pitridosha', then despite the presence of Pitridosha in your chart, there is no need for any remedies. It is quite probable that your ancestors are pleased by your auspicious deeds or have attained Moksha and are no longer troubling you.\r\n\r\n"
+        ]
+      },
+      {
+        "table": "Rudraksh",
+        "keys": [
+          "Prediction",
+          "Remedise"
+        ],
+        "predictions": [
+          "\tYour Lagna is the fiery sign Leo; as a result, you are very confident and assertive. The Lagna lord, the Sun, makes you as energetic as a lion. You do not hesitate to undertake any task and will continue working until it is accomplished. You enjoy formulating policies and executing them. You do not tolerate indiscipline at all. In your opinion, the rules and policies you devise are applicable to everyone, including yourself. You are fond of praise and value your reputation. You always keep your word. There is an amazing stability in your nature and behavior. Once you start something, you stay associated with it until the end. You are very efficient in mental and administrative work, though you might avoid physical labor. When you love or are friendly toward someone, you may feel as if you have an exclusive right to that person, which can lead to jealousy.\n\n\tFor a Leo ascendant, Saturn is the lord of the 6th and 7th houses. Therefore, you might suffer from wind-related ailments. Additionally, this Saturn position is not considered highly positive for the comfort of children, victory over enemies, or gains from education. Furthermore, there remains a struggle in life due to excessive expenses. This Saturn position decreases your influence and can also result in less happiness from siblings.\n\n\tJupiter is the lord of the 5th and 8th houses, which can lead to problems like an ineffective daily schedule, no gains from abroad, and average gains from your motherland or property. It may also result in reduced gains from education and intelligence, as well as less happiness from children. The lord of the 12th house is the Moon, which might cause mental tension, worries regarding your mother's health, and the loss of wealth or reputation. Additionally, this yoga can cause vulnerability to colds and influenza.\n\n\tThe 6th, 8th, and 12th houses are known as Trik Bhavas. The lords of these houses, and the planets placed therein, create obstacles in life. The 6th house denotes diseases, debts, and troubles caused by enemies. Consequently, the house occupied by such a planet loses its auspiciousness. The native becomes a victim of troubles such as illness, debt, and enmity, which can severely affect their physical, mental, social, financial, and domestic conditions. Among the Trik Bhavas, the 8th house is the most notorious and inauspicious. It destroys the positive results of the house it occupies. The maleficence of planets in the 8th house increases, eventually leading to more inauspicious outcomes. The third Trik Bhava is the 12th house. It denotes various types of expenses and is thus known as the house of losses. This house represents loss, taxes, sleep, bed pleasures, imprisonment, foreign journeys, and salvation. The lord and any planet placed in the 12th house increase the inauspiciousness of this house.\r\n\r\n\tThis placement affects your physical attraction, creates obstacles in the inflow of money, and reduces income, leading to financial tension, diminished family happiness, and significant struggle. Long-term illnesses may cause considerable stress. This position of Mars also results in Manglik Yoga, which can bring trouble to your married life. Furthermore, there is a probability of problems regarding children, loss of wealth abroad, or ailments of the mouth, eyes, and ears. Debt may also increase.",
+          "\tTo achieve the auspicious results of all these planets, you should wear a Rudraksha Kavach consisting of 2 3 5 -faced Rudrakshas. This Kavach should be worn on a white thread on Monday after sanctifying it by sprinkling Gangajal and chanting the \"Om Namah Shivay\" mantra at least 108 times. Afterward, offer raw milk to Lord Shiva and make donations according to your capacity. This will help you overcome difficult life situations and provide substantial relief from serious problems. To further strengthen all the planets in your horoscope, you may also wear a Shivkripa Rudraksha Mala comprising 1 to 14-faced Rudrakshas, which yields miraculous results.\n\n\tThe above Kavacham can be worn throughout life, regardless of Dasha and Gochar considerations. This Kavach is essential for overcoming the malefic effects of the Lagna and the planets placed within the Lagna."
+        ]
+      }
+    ]
+}

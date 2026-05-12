@@ -1,0 +1,160 @@
+================================================================================
+ASTROLOGY AI BACKEND API DOCUMENTATION (V3 UNIFIED)
+================================================================================
+
+BASE URL:
+----------
+- Local:  http://localhost:8001/api
+
+================================================================================
+🚀 MIGRATION GUIDE: UPGRADING TO V3 UNIFIED RAG
+================================================================================
+The old specialized agent endpoints have been DELETED to enforce a unified, 
+smarter multi-domain RAG pipeline.
+
+DEPRECATED ENDPOINTS:
+❌ POST /api/horary/classify
+❌ POST /api/time/query
+
+HOW TO MIGRATE:
+You no longer need to call specialized endpoints based on the user's intent. 
+Simply send ALL queries (Kundali, Horary, Timing, Remedies) to the universal 
+`POST /api/chat` endpoint. The backend uses a specialized semantic decomposer 
+to automatically detect the intent and route it to the appropriate data stores.
+
+================================================================================
+1. SESSION MANAGEMENT (INIT / RESUME)
+================================================================================
+URL: /api/sessions/init
+METHOD: POST
+
+Use this to start a NEW session (send profile and database records) or RESUME 
+an old one (send existing session_id).
+
+A. REQUEST BODY (SINGLE KUNDALI SESSION)
+{
+  "user_profile": {
+    "name": "Arun Bansal",
+    "gender": "Male",
+    "dob": "13/12/1956", 
+    "tob": "23:10:00",
+    "city": "Delhi",
+    "languagecode": 0       // 0=English, 1=Hindi, 14=Hinglish
+  },
+  "records": [ ... ]        // Birth Chart Dataset
+}
+
+B. REQUEST BODY (RESUME SESSION)
+{
+  "session_id": "8b6d8570"   // Reloads history/profile from persistent store
+}
+
+RESPONSE:
+{ 
+  "session_id": "8b6d8570", 
+  "status": "initialized" | "resumed", 
+  "docs_loaded": 116 
+}
+
+================================================================================
+2. UNIVERSAL CHAT (KUNDALI / TIMING / HORARY / REMEDIES)
+================================================================================
+URL: /api/chat
+METHOD: POST
+
+This is the unified engine. It automatically decomposes the query, fetches 
+relevant RAG chunks, scores them via Cross-Encoder Reranking, and routes 
+to one of 15 Astro Skills.
+
+REQUEST BODY:
+{
+  "session_id": "8b6d8570",
+  "message": "When is the best time for a job change?",
+  "intent_override": "TIMING",       // Optional: Force a specific workflow
+  "secondary_language_code": 1       // Optional: Override profile language
+}
+
+RESPONSE (Cleaned for Client):
+{
+  "session_id": "8b6d8570",
+  "answer": "Respected Arun, according to your active dasha...", 
+  "suggestions": [
+     "What astrological remedies should I perform?",
+     "How will my finances be impacted?"
+  ]
+}
+
+================================================================================
+3. COMPATIBILITY / MATCHING
+================================================================================
+URL: /api/matching/query
+METHOD: POST
+
+Use this to ask questions regarding compatibility between two profiles. 
+The system runs parallel Kundali analyses for both profiles and synthesizes 
+the Ashtkoot Guna matching records.
+
+REQUEST BODY:
+{
+  "session_id": "9a7e3211",
+  "query": "Will our marriage be successful?",
+  "language": "English"
+}
+
+RESPONSE:
+Supports Server-Sent Events (SSE) Streaming.
+Content-Type: text/event-stream
+
+Streamed chunks:
+data: {"answer": "Based on the Ashtkoot score..."}
+data: {"suggestions": ["What are the doshas in this match?"]}
+
+================================================================================
+4. FETCH SESSION HISTORY & LISTS
+================================================================================
+URL: /api/sessions
+METHOD: GET
+RESPONSE:
+{
+  "sessions": [
+    { "session_id": "8b6d8570", "user_name": "Arun Bansal", "last_activity": "2026-04-02T16:00:00" }
+  ]
+}
+
+URL: /api/sessions/{session_id}
+METHOD: GET
+RESPONSE:
+{
+  "session_id": "8b6d8570",
+  "user_profile": { ... },
+  "messages": [
+    { "role": "user", "content": "Hello" },
+    { "role": "assistant", "content": "Hi Arun, how can I help you today?" }
+  ],
+  "conversation_summary": "User is interested in career growth..."
+}
+
+================================================================================
+5. PERSISTENCE & LOGGING (Admin Dashboard)
+================================================================================
+- DB: All chat messages and rolling summaries are saved to `logs/sessions.db`.
+- AUDIT: Global backend activity is logged in `logs/terminal_audit.jsonl`.
+- *Note: Granular session_log JSON files have been disabled for performance.*
+
+ADMIN DASHBOARD:
+To visually monitor the logs, user sessions, and chat histories, you can 
+launch the Streamlit Admin Dashboard.
+Run this command from the `backend/` directory:
+> pip install streamlit pandas
+> streamlit run admin_dashboard.py
+
+
+================================================================================
+6. LANGUAGE CODES (languagecode)
+================================================================================
+{
+  "0": "English", "1": "Hindi", "2": "Gujarati", "3": "Marathi",
+  "4": "Tamil", "5": "Telugu", "6": "Assamese", "7": "Bengali",
+  "8": "Punjabi", "9": "Nepali", "10": "Odia", "11": "Spanish",
+  "12": "Malayalam", "13": "Kannada", "14": "Hinglish"
+}
